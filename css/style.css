@@ -1,0 +1,217 @@
+.accordion-button {
+    scroll-margin-top: 75px;
+}
+
+.sidebar-content {
+    background: #ffffff;
+}
+
+a.sidebar-link {
+    background: #ffffff;
+    color: #647279;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+a.sidebar-link.actived {
+    background: #00a335;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a.sidebar-link.actived:hover {
+    background: #00863F;
+    color: #ffffff;
+}
+
+a.sidebar-link:hover {
+    background-color: rgba(0,0,0,0.04);
+    color: #647279;
+}
+
+.sidebar-nav {
+    padding: 0; /* Remove padding from the ul */
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.align-middle {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    white-space: nowrap;
+    height: 15px; /* Garante que a altura do texto seja igual à do ícone */
+}
+.sidebar-item {
+    background: #ffffff;
+    display: flex;
+    margin-bottom: 0px; /* Ajuste este valor conforme necessário */
+
+}
+
+.font-color-grey {
+    color: #647279;
+}
+
+.card-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #00a335;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: small;
+    border: 0ch;
+    border-radius: 9;
+}
+
+@media (max-width:768px){
+    .margin-top-icon {
+        padding-top: 10px;
+    }
+}
+
+.sidebar-item.disabled {
+    color: grey;
+}
+
+.align-middle {
+    text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #00863F;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.white-icon {
+    filter: brightness(0) invert(1);
+}
+
+.title-page {
+    font-size: large;
+    font-weight: 600;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo CSS para aproximar os submenus */
+.navbar {
+    margin-bottom: 4 !important; /* Reduz a margem inferior da barra de navegação */
+}
+
+.menu-aproximado {
+    margin-left: 1px; /* Ajusta a margem esquerda para aproximar os submenus */
+    margin-right: 55px; /* Ajusta a margem direita para aproximar os submenus */
+}
+
+.router-icon {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feather {
+    width: 100%;
+    height: 100%;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.config-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#config-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#config-results {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+#config-results li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: -1px; /* Evitar a duplicação da borda */
+    cursor: pointer;
+}
+
+#config-results li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilizando o menu principal */
+#id_do_menu {
+    width: 250px; /* Largura do menu */
+    height: 30px; /* Altura do menu */
+    background-color: #87c984; /* Cor de fundo */
+    border: 1px solid #00a335; /* Borda */
+    font-family: Arial, sans-serif; /* Fonte */
+    padding: 5px; /* Espaçamento interno */
+  }
+  
+  /* Estilizando as opções do menu */
+  #id_do_menu option {
+    padding: 5px; /* Espaçamento entre as opções */
+    background-color: #fff; /* Cor de fundo das opções */
+    color: #000; /* Cor do texto das opções */
+  }
+  
+  /* Estilizando a opção selecionada */
+  #id_do_menu option:selected {
+    background-color: #eee; /* Cor de fundo da opção selecionada */
+  }
+
+.search-container {
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Align items vertically */
+}
+
+#id_do_menu {
+  margin-right: 15px; /* Add spacing between select and icon */
+}
